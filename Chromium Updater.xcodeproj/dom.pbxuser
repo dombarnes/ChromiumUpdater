@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 554}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = F2FE7BEC128413CD002C2D3E /* Chromium Updater */;
+		activeTarget = 8D1107260486CEB800E47090 /* Chromium Updater */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Chromium Updater */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = F2FE7C00128413CF002C2D3E /* Code sense */;
+		executables = (
+			F2FE7BEC128413CD002C2D3E /* Chromium Updater */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					871,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 310656357;
+			PBXWorkspaceStateSaveDate = 310656357;
+		};
+		perUserProjectItems = {
+			F2DCF27412843E1900EA6CA9 /* PBXTextBookmark */ = F2DCF27412843E1900EA6CA9 /* PBXTextBookmark */;
+			F2DCF27512843E1900EA6CA9 /* PBXTextBookmark */ = F2DCF27512843E1900EA6CA9 /* PBXTextBookmark */;
+			F2DCF27612843E1900EA6CA9 /* PBXTextBookmark */ = F2DCF27612843E1900EA6CA9 /* PBXTextBookmark */;
+			F2DCF27712843E1900EA6CA9 /* PBXTextBookmark */ = F2DCF27712843E1900EA6CA9 /* PBXTextBookmark */;
+			F2DCF27812843E1900EA6CA9 /* PBXTextBookmark */ = F2DCF27812843E1900EA6CA9 /* PBXTextBookmark */;
+			F2DCF27912843E1900EA6CA9 /* PlistBookmark */ = F2DCF27912843E1900EA6CA9 /* PlistBookmark */;
+			F2FE7C621284291B002C2D3E /* PlistBookmark */ = F2FE7C621284291B002C2D3E /* PlistBookmark */;
+		};
+		sourceControlManager = F2FE7BFF128413CF002C2D3E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 554}}";
+			sepNavSelRange = "{108, 0}";
+			sepNavVisRange = "{0, 356}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Chromium_Updater_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 554}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 163}";
+		};
+	};
+	3B92A9F80F6ED2CB0023785B /* Chromium_UpdaterAppDelegate.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 554}}";
+			sepNavSelRange = "{167, 0}";
+			sepNavVisRange = "{0, 883}";
+		};
+	};
+	7386E8AB10E42399005A44EA /* UpdateChromium.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 1560}}";
+			sepNavSelRange = "{3424, 0}";
+			sepNavVisRange = "{30, 1007}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Chromium Updater */ = {
+		activeExec = 0;
+		executables = (
+			F2FE7BEC128413CD002C2D3E /* Chromium Updater */,
+		);
+	};
+	F2DCF27412843E1900EA6CA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7386E8AB10E42399005A44EA /* UpdateChromium.applescript */;
+		name = "UpdateChromium.applescript: 104";
+		rLen = 0;
+		rLoc = 3424;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 30;
+	};
+	F2DCF27512843E1900EA6CA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 6";
+		rLen = 0;
+		rLoc = 108;
+		rType = 0;
+		vrLen = 356;
+		vrLoc = 0;
+	};
+	F2DCF27612843E1900EA6CA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	F2DCF27712843E1900EA6CA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3B92A9F80F6ED2CB0023785B /* Chromium_UpdaterAppDelegate.applescript */;
+		name = "Chromium_UpdaterAppDelegate.applescript: 7";
+		rLen = 0;
+		rLoc = 167;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 0;
+	};
+	F2DCF27812843E1900EA6CA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Chromium_Updater_Prefix.pch */;
+		name = "Chromium_Updater_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 163;
+		vrLoc = 0;
+	};
+	F2DCF27912843E1900EA6CA9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Chromium_Updater-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSMainNibFile,
+		);
+		name = "/Users/dom/Dropbox/Development/Chromium Updater/Chromium_Updater-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	F2FE7BEC128413CD002C2D3E /* Chromium Updater */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Chromium Updater";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F2FE7BFF128413CF002C2D3E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F2FE7C00128413CF002C2D3E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F2FE7C621284291B002C2D3E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Chromium_Updater-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/dom/Dropbox/Development/Chromium Updater/Chromium_Updater-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+}
