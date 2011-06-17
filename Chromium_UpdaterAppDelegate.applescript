@@ -27,7 +27,7 @@ script Chromium_UpdaterAppDelegate
 	
 	on FetchBuild()
 		--obtain latest build number
-		set latest to do shell script "curl http://build.chromium.org/buildbot/snapshots/chromium-rel-mac/LATEST"
+		set latest to do shell script "curl http://build.chromium.org/buildbot/snapshots/Mac/LATEST"
 		build_label's setStringValue_(latest as string)
 	end FetchBuild
 	

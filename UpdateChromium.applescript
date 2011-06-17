@@ -40,7 +40,7 @@ script UpdateChromium
 			end tell
 		end try
 		log "curver " & curVer
-		set latest to do shell script "curl http://build.chromium.org/f/chromium/snapshots/chromium-rel-mac/LATEST"
+		set latest to do shell script "curl http://build.chromium.org/f/chromium/snapshots/Mac/LATEST"
 		build_label's setStringValue_(latest as number)
 		log latest
 		if curVer is greater than or equal to latest then
@@ -63,7 +63,7 @@ script UpdateChromium
 		try
 			do shell script "mkdir ~/.tmp"
 		end try
-		set curl_URL to "curl -# http://build.chromium.org/f/chromium/snapshots/chromium-rel-mac/" & latest & "/chrome-mac.zip -o  ~/.tmp/chrome-mac.zip"
+		set curl_URL to "curl -# http://build.chromium.org/f/chromium/snapshots/Mac/" & latest & "/chrome-mac.zip -o  ~/.tmp/chrome-mac.zip"
 		do shell script curl_URL
 		progress_bar's incrementBy_(20)
 		--unpack and copy
