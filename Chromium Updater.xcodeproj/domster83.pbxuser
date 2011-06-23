@@ -69,17 +69,17 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 310602981;
-			PBXWorkspaceStateSaveDate = 310602981;
+			PBXPerProjectTemplateStateSaveDate = 330544457;
+			PBXWorkspaceStateSaveDate = 330544457;
 		};
 		perUserProjectItems = {
 			7329440810ECB249003EDFB4 /* PBXTextBookmark */ = 7329440810ECB249003EDFB4 /* PBXTextBookmark */;
-			739C21211142852500FEBC8C /* PBXTextBookmark */ = 739C21211142852500FEBC8C /* PBXTextBookmark */;
+			73613C7C13B3B55400145E36 /* PBXTextBookmark */ = 73613C7C13B3B55400145E36 /* PBXTextBookmark */;
+			73613C7D13B3B55400145E36 /* PBXTextBookmark */ = 73613C7D13B3B55400145E36 /* PBXTextBookmark */;
 			73AF7CCA10E41E66007AB41E /* PlistBookmark */ = 73AF7CCA10E41E66007AB41E /* PlistBookmark */;
 			73AF7CCB10E41E66007AB41E /* PBXTextBookmark */ = 73AF7CCB10E41E66007AB41E /* PBXTextBookmark */;
 			73AF7CCC10E41E66007AB41E /* PBXTextBookmark */ = 73AF7CCC10E41E66007AB41E /* PBXTextBookmark */;
 			73AF7CCD10E41E66007AB41E /* PBXTextBookmark */ = 73AF7CCD10E41E66007AB41E /* PBXTextBookmark */;
-			73D7AE7E1283FE680044BFE1 /* PBXTextBookmark */ = 73D7AE7E1283FE680044BFE1 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 739548B010E3CAFE003D85A0 /* Source Control */;
 		userBuildSettings = {
@@ -133,11 +133,31 @@
 		vrLen = 856;
 		vrLoc = 0;
 	};
+	73613C7C13B3B55400145E36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7386E8AB10E42399005A44EA /* UpdateChromium.applescript */;
+		name = "UpdateChromium.applescript: 38";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 1107;
+		vrLoc = 285;
+	};
+	73613C7D13B3B55400145E36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7386E8AB10E42399005A44EA /* UpdateChromium.applescript */;
+		name = "UpdateChromium.applescript: 38";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 838;
+		vrLoc = 0;
+	};
 	7386E8AB10E42399005A44EA /* UpdateChromium.applescript */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {987, 1285}}";
+			sepNavIntBoundsRect = "{{0, 0}, {962, 1560}}";
 			sepNavSelRange = "{979, 0}";
-			sepNavVisRange = "{235, 1153}";
+			sepNavVisRange = "{0, 838}";
 		};
 	};
 	7395489D10E3CAFB003D85A0 /* Chromium Updater */ = {
@@ -184,16 +204,6 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	739C21211142852500FEBC8C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7386E8AB10E42399005A44EA /* UpdateChromium.applescript */;
-		name = "UpdateChromium.applescript: 72";
-		rLen = 0;
-		rLoc = 2832;
-		rType = 0;
-		vrLen = 1116;
-		vrLoc = 1308;
-	};
 	73AF7CCA10E41E66007AB41E /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Chromium_Updater-Info.plist */;
@@ -234,16 +244,6 @@
 		rType = 0;
 		vrLen = 352;
 		vrLoc = 0;
-	};
-	73D7AE7E1283FE680044BFE1 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7386E8AB10E42399005A44EA /* UpdateChromium.applescript */;
-		name = "UpdateChromium.applescript: 34";
-		rLen = 0;
-		rLoc = 979;
-		rType = 0;
-		vrLen = 1153;
-		vrLoc = 235;
 	};
 	8D1107260486CEB800E47090 /* Chromium Updater */ = {
 		activeExec = 0;
