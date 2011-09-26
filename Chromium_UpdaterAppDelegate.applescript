@@ -27,7 +27,7 @@ script Chromium_UpdaterAppDelegate
 	
 	on FetchBuild()
 		--obtain latest build number
-		set latest to do shell script "curl http://build.chromium.org/buildbot/snapshots/Mac/LATEST"
+		set latest to do shell script "curl http://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/LAST_CHANGE"
 		build_label's setStringValue_(latest as string)
 	end FetchBuild
 	
