@@ -1,10 +1,9 @@
---
 --  Chromium_UpdaterAppDelegate.applescript
 --  Chromium Updater
 --
---  Created by Dom Barnes on 24/12/2009.
---  Copyright 2010. All rights reserved.
--- Version 1.1
+--  Created by Dom Barne http://dombarnes.com 
+--  Application Icon by Koen Punt http://www.koenpunt.nl
+--  Copyright 2011. All rights reserved.
 
 script Chromium_UpdaterAppDelegate
 	property parent : class "NSObject"

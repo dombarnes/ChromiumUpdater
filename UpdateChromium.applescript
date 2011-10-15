@@ -1,10 +1,8 @@
 -- UpdateChromium.applescript
 -- Chromium Updater
 
--- Created by Dom Barnes on 24/12/2009.
--- Copyright 2009. All rights reserved.
--- Version 1.1
--- Last Updated 05/11/2010
+-- Created by Dom Barnes.
+-- Copyright 2011. All rights reserved.
 
 
 script UpdateChromium

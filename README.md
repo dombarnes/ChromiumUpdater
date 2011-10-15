@@ -18,6 +18,9 @@ For support, please see http://dombarnes.com/software
 
 Please commit any changes or updates back to the repository.
 
+# Acknowledges #
+Thanks to Koen Punt (http://www.koenpunt.nl) for the great application icon.
+
 ## Licence ##
 Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
 

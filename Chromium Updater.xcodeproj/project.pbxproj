@@ -10,8 +10,8 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		3B92A9F90F6ED2CB0023785B /* Chromium_UpdaterAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 3B92A9F80F6ED2CB0023785B /* Chromium_UpdaterAppDelegate.applescript */; };
 		3BC3FB040ED20C27004AC079 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC3FB030ED20C27004AC079 /* AppleScriptObjC.framework */; };
-		73697E4B143092F90008A76E /* chromium_update_512.icns in Resources */ = {isa = PBXBuildFile; fileRef = 73697E4A143092F90008A76E /* chromium_update_512.icns */; };
 		7386E8AC10E42399005A44EA /* UpdateChromium.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 7386E8AB10E42399005A44EA /* UpdateChromium.applescript */; };
+		73A3D5D6144A4544000AE8F4 /* chromium_updater_all.icns in Resources */ = {isa = PBXBuildFile; fileRef = 73A3D5D5144A4544000AE8F4 /* chromium_updater_all.icns */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -28,8 +28,8 @@
 		32CA4F630368D1EE00C91783 /* Chromium_Updater_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chromium_Updater_Prefix.pch; sourceTree = "<group>"; };
 		3B92A9F80F6ED2CB0023785B /* Chromium_UpdaterAppDelegate.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = Chromium_UpdaterAppDelegate.applescript; sourceTree = "<group>"; };
 		3BC3FB030ED20C27004AC079 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = /System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = "<absolute>"; };
-		73697E4A143092F90008A76E /* chromium_update_512.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = chromium_update_512.icns; sourceTree = "<group>"; };
 		7386E8AB10E42399005A44EA /* UpdateChromium.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = UpdateChromium.applescript; sourceTree = "<group>"; };
+		73A3D5D5144A4544000AE8F4 /* chromium_updater_all.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = chromium_updater_all.icns; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Chromium_Updater-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Chromium_Updater-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Chromium Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chromium Updater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -107,7 +107,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				73697E4A143092F90008A76E /* chromium_update_512.icns */,
+				73A3D5D5144A4544000AE8F4 /* chromium_updater_all.icns */,
 				8D1107310486CEB800E47090 /* Chromium_Updater-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -179,7 +179,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				73697E4B143092F90008A76E /* chromium_update_512.icns in Resources */,
+				73A3D5D6144A4544000AE8F4 /* chromium_updater_all.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +260,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx10.6;
 			};
@@ -272,6 +273,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx10.6;
 			};
 			name = Release;
