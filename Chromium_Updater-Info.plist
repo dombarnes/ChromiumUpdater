@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>chromium_update_all.icns</string>
+	<string>chromium_updater_all.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.dombarnes.${PRODUCT_NAME:identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
