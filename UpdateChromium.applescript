@@ -33,18 +33,17 @@ script UpdateChromium
 		log appPlist
 		try
 			tell application "System Events"
-				set curVer to value of property list item "SVNRevision" of property list file appPlist
-				log curVer
+				set curVer to value of property list item "SCMRevision" of property list file appPlist
 			end tell
+			log "curentVersion: " & curVer
 		end try
-		log "curver " & curVer
 		set latest to do shell script "curl http://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/LAST_CHANGE"
-		build_label's setStringValue_(latest as number)
-		log latest
+		build_label's setStringValue_("Build: " & latest as text)
+		log "latestVersion: " & latest
         set curVer to curVer as number
         set latest to latest as number
 		if curVer is greater than or equal to latest then
-			status_label's setStringValue_("You have the latest build version " & latest)
+			status_label's setStringValue_("You already have the latest nightly build.")
 			header_label's setStringValue_("")
 			build_label's setStringValue_("")
 			start_Button's setEnabled_(false)
@@ -55,10 +54,12 @@ script UpdateChromium
 		progress_bar's setMinValue_(0)
 		delay 1
 		progress_bar's incrementBy_(5)
+		delay 1
 		progress_bar's incrementBy_(15)
 		--download latest build using build number in latest
 		header_label's setStringValue_("Updating. Please wait")
-		status_label's setStringValue_("Downloading nightly build" as string)
+		build_label's setStringValue_("Build: " & latest)
+		status_label's setStringValue_("Downloading nightly build..." as string)
 		delay 1
 		try
 			do shell script "mkdir ~/.tmp"
@@ -91,8 +92,7 @@ script UpdateChromium
 		try
 			do shell script "rm -R /Applications/Chromium.old.app"
 		end try
-		status_label's setStringValue_("Completed! Installed build " & latest as string)
-		build_label's setStringValue_(" ")
+		status_label's setStringValue_("Finished!")
 		--do shell script "echo " & latest & " > .tmp/current_chromium"
 	end updateChromium_
 	
