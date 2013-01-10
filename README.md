@@ -2,13 +2,13 @@
 ChromiumUpdater is a free tool to automatically update your current version of Chromium, by downloading the current nightly build, if different to your own, and installing it for you.  
 
 ## System Requirement ##
-Mac OS X 10.5 or higher, 10.6 is recommended  
+Mac OS X 10.7 or higher.
 
 ## Build Application ##
 Open project in Xcode and select Build from the Build menu. You should find the app in build/Release within the project directory.  
 
 ## Install ##
-No install required. Just run the app
+No installation required. Just run the app
 
 ## Uninstall ##
 Just delete the application to remove. Be aware this will not remove your current installation of Chromium. To do this, delete the Chromium application from your /Applications folder, and remove any preferences in your Library.
